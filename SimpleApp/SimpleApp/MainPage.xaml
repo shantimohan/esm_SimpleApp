@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SimpleApp"
+             x:Class="SimpleApp.MainPage">
+
+    <StackLayout BackgroundColor="LightBlue">
+        <Label Text="@shantimohan_e"
+               FontSize="Large"
+               Margin="10,50,10,0"
+               TextColor="Black"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" />
+
+        <Button x:Name="Button1"
+                Text="Click Me!"
+                Margin="10,200,10,0"
+                Clicked="Button1_Clicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+
+        <Label x:Name="Label1"
+               FontSize="24"
+               Margin="10,200,10,0"
+               BackgroundColor="White"
+               TextColor="Black"
+               HeightRequest="50"
+               WidthRequest="500"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" />
+    </StackLayout>
+
+</ContentPage>
